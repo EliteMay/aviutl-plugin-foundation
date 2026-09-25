@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "example-plugin",
+  "name": "Example Plugin",
+  "target": {
+    "application": "aviutl2",
+    "pluginType": "auf2",
+    "architecture": "x64",
+    "minimumVersion": null,
+    "testedVersions": []
+  },
+  "sdk": {
+    "repository": "oov/aviutl2_plugin_sdk",
+    "commit": null
+  },
+  "build": {
+    "system": "cmake",
+    "sourceDirectory": ".",
+    "buildDirectory": "build",
+    "configurations": ["Debug", "Release"],
+    "artifacts": []
+  },
+  "install": {
+    "kind": "plugin",
+    "subdirectory": "Plugin/ExamplePlugin"
+  },
+  "verification": {
+    "roadmap": "docs/ROADMAP.md"
+  }
+}
