@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "foundationVersion": "0.1.0",
+  "supportedTargets": ["aviutl2"],
+  "templates": {
+    "native-filter": "templates/native-filter",
+    "native-input": "templates/native-input",
+    "native-output": "templates/native-output",
+    "native-module": "templates/native-module",
+    "native-general": "templates/native-general",
+    "script": "templates/script"
+  },
+  "managedPaths": [
+    ".github/workflows/foundation-build.yml",
+    "cmake/foundation/",
+    "tests/foundation/"
+  ],
+  "protectedPluginPaths": [
+    "src/",
+    "README.md",
+    "docs/ROADMAP.md",
+    "assets/"
+  ]
+}
